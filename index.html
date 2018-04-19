@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Restaurant</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="assets/styles/styles-794e216304.css"/>
+
+  <script src="assets/scripts/Vendor-7ee71a0a2a.js"></script>
+</head>
+<body>
+  <!--------------------------------Header -------------------------------------------->
+  <header>
+    <div class="top-nav" id="top-nav_1">
+        <a href="#"> <div class=" top-nav__logo"> </div>  </a>
+        <a href="#gallery" id="link-gallery" class="top-nav__link"> Gallery </a>
+        <a  href="#about" class="top-nav__link" id="linkabout"> About  </a>
+        <a   href="#delivery" class="top-nav__link" id="link-delivary" > Delivery </a>
+        <a  href="#Reservation"class="top-nav__link" id="link-reservation"> Reservation </a>
+        <div class="top-nav__link dropdown"  >
+          <div id="link-menu"  class="dropdown__toggle" >
+             Menu
+            <i class=" dropdown__icon fa fa-angle-down"></i>
+          </div>
+          <div class="dropdown__content">
+            <a href="#Salad"   class="dropdown__item"> <p> Salad </p> </a>
+            <a href="#Soup"  class="dropdown__item"> <p> Soup </p> </a>
+            <a href="#Chicken" class="dropdown__item"> <p> Chicken </p> </a>
+            <a href="#Beef"   class="dropdown__item"> <p> Beef </p> </a>
+            <a href="#Pasta"  class="dropdown__item"> <p> Pasta </p> </a>
+            <a href="#Dessert" class="dropdown__item"> <p> Dessert </p> </a>
+          </div>
+        </div>
+        <a  href="#" class="top-nav__link" id="link-home"> Home  </a>
+      <!--  <a class="top-nav__link top-nav__hidden"> Hide </a> -->
+        <div class="top-nav__icon">
+          <div class="top-nav__icon__middle"> </div>
+        </div>
+    </div> <!-- End of nav -->
+  </header>
+<!--------------------------------Leas Banner -------------------------------------------->
+  <div class="large-hero page-section  page-section__home" id="home" data-matching-link="#link-home">
+    <picture>
+     <source srcset="assets/images/hero--large.jpg 1920w" media="(min-width: 1380px)">
+     <source srcset="assets/images/hero--medium.jpg 1380w" media="(min-width: 990px)">
+     <source srcset="assets/images/hero--small.jpg 990w " media="(min-width: 640px)">
+     <img srcset="assets/images/hero--smaller.jpg 640w  " alt="Coastal view of ocean and mountains" class="large-hero__image">
+   </picture>
+    <h2 class="large-hero__title">Integer ac ligula</h2>
+  </div>
+  <!--------------------------------Menu Section -------------------------------------------->
+
+    <div id="Menu " data-matching-link="#link-menu" class="page-section page-section__menu">
+      <div class="wrapper menu">
+        <!-- - - - - - -  - - - - - - After Start of menu Sort -------------->
+        <div id="Salad" class="menu__sort">
+
+          <h3 class="menu__sort__title"> Salad </h3>
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-salad-1.jpg">
+            <p class="menu__item__thumbnail__price"> $10  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+          <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-salad-2.jpeg">
+            <p class="menu__item__thumbnail__price"> $5  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+          <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-salad-3.jpg">
+            <p class="menu__item__thumbnail__price"> $8  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+            <div class="menu__free-item"></div>   <!-- Free Item -->
+        </div> <!-- End of menu Sort-->
+        <!-- - - - - - -  - - - - - - After Start of menu Sort -------------->
+
+        <div id="Soup" class="menu__sort">
+          <div class="menu__free-item"></div>   <!-- Free Item -->
+          <h3 class="menu__sort__title"> Soup </h3>
+
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-soup-1.jpg">
+            <p class="menu__item__thumbnail__price"> $10  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+            <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-soup-2.jpeg">
+            <p class="menu__item__thumbnail__price"> $5  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+            <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-soup-3.jpeg">
+            <p class="menu__item__thumbnail__price"> $8  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+
+        </div> <!-- End of menu Sort-->
+
+        <!-- - - - - - -  - - - - - - After Start of menu Sort -------------->
+        <div id="Chicken" class="menu__sort">
+
+          <h3 class="menu__sort__title"> Chicken </h3>
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-chicken-1.jpeg">
+            <p class="menu__item__thumbnail__price"> $10  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+          <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-chicken-2.jpeg">
+            <p class="menu__item__thumbnail__price"> $5  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+          <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-chicken-3.jpeg">
+            <p class="menu__item__thumbnail__price"> $8  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+            <div class="menu__free-item"></div>   <!-- Free Item -->
+        </div> <!-- End of menu Sort-->
+        <!-- - - - - - -  - - - - - - After Start of menu Sort -------------->
+
+        <div  id="Beef" class="menu__sort">
+          <div class="menu__free-item"></div>   <!-- Free Item -->
+          <h3 class="menu__sort__title"> Beef </h3>
+
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-beef-1.jpeg">
+            <p class="menu__item__thumbnail__price"> $10  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+            <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-beef-2.jpeg">
+            <p class="menu__item__thumbnail__price"> $5  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+            <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-beef-3.jpeg">
+            <p class="menu__item__thumbnail__price"> $8  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+        </div> <!-- End of menu Sort-->
+        <!-- - - - - - -  - - - - - - After Start of menu Sort -------------->
+        <div id="Pasta" class="menu__sort">
+
+          <h3 class="menu__sort__title"> Patsa </h3>
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-pasta-1.jpg">
+            <p class="menu__item__thumbnail__price"> $10  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+          <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-pasta-2.jpeg">
+            <p class="menu__item__thumbnail__price"> $5  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+          <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-pasta-3.jpeg">
+            <p class="menu__item__thumbnail__price"> $8  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+            <div class="menu__free-item"></div>   <!-- Free Item -->
+        </div> <!-- End of menu Sort-->
+        <!-- - - - - - -  - - - - - - After Start of menu Sort -------------->
+
+        <div id="Dessert" class="menu__sort">
+          <div class="menu__free-item"></div>   <!-- Free Item -->
+          <h3 class="menu__sort__title"> Dessert </h3>
+
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-dessert-1.jpeg">
+            <p class="menu__item__thumbnail__price"> $10  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+            <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-dessert-2.jpg">
+            <p class="menu__item__thumbnail__price"> $5  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+            <div class="menu__free-item"></div>   <!-- Free Item -->
+          <div class="menu__item">
+            <div class="menu__item__thumbnail">
+            <img class="menu__item__thumbnail__image" src ="assets/images/menu-dessert-3.jpeg">
+            <p class="menu__item__thumbnail__price"> $8  </p>
+             <button class="menu__item__thumbnail__link btn btn__small"> View </button>
+           </div> <!-- End of menu item thumbnail -->
+           <div class="menu__item__content">
+             <h3 class="menu__item__content__title">  fugiat nulla pariatur </h3>
+              <p class="menu__item__content__description"> cillum dolore eu fugiat nulla pariatur
+                eu fugiat nulla pariatur.
+              </p>
+           </div> <!-- End of  menu item content -->
+          </div> <!-- End of menu Item -->
+        </div> <!-- End of menu Sort-->
+
+
+
+                        <!-- End of Menu -->
+      </div> <!-- End of menu and Wrapper-->
+  </div> <!-- End of page section menu -->
+
+
+  <!--------------------------------Reservation Section -------------------------------------------->
+  <div id="Reservation" data-matching-link="#link-reservation" class=" page-section page-section__reservation">
+    <div class="wrapper wrapper__100 wrapper__100__x-padding reservation">
+          <picture>
+              <source srcset="assets/images/reservation--large.png 1920w" media="(min-width: 1380px)">
+              <source srcset="assets/images/reservation--medium.png 1380w" media="(min-width: 990px)">
+              <source srcset="assets/images/reservation--small.png 990w" media="(min-width: 640px)">
+              <img srcset="assets/images/reservation--smaller-tall.png 640w" alt="Reservation " class="">
+          </picture>
+          <div class="reservation__content">
+              <h2 class="reservation__title">Reservation</h2>
+              <p class="reservation__description"> Reservation is accepted up to 30 days in advance.
+                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                  velit esse cillum <strong>dolore eu fugiat.</strong>
+              </p>
+              <button class="btn btn__centered"> Book a table </button>
+          </div>  <!--End of reservation content -->
+      </div>
+  </div>  <!-- End of reservation -->
+
+  <!--------------------------------Delivery Section -------------------------------------------->
+
+    <div id="delivery" data-matching-link="#link-delivary" class="page-section page-section__delivery">
+      <div class="wrapper wrapper__normal delivery">
+
+          <img  class="delivery__image"src="assets/images/delivery.jpg" alt="Delivery section">
+          <div class="delivery__content">
+            <h2 class="delivery__title">Delivery</h2>
+            <p class="delivery__description">Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit, sed do eiusmod tempor
+              iat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+               deserunt mollit anim id est laborum velit esse cillum
+             </p>
+         </div>
+      </div>
+   </div>
+
+
+  <!--------------------------------About Us Section -------------------------------------------->
+  <div id="about"  data-matching-link="#linkabout" class=" page-section __about row ">
+    <div class="wrapper wrapper__90">
+          <h2 class=" page-section__title">About Us</h2>
+
+          <div class="card row__4" >
+
+            <img class="card__image" src="assets/images/card-1.png">
+            <div class="card__body">
+                <h3 class="card__body__title">Jane Doe</h3>
+                <p class="card__body__description">
+                    Executive Chef
+                </p>
+            </div> <!-- end of card body -->
+         </div> <!-- End of card -->
+         <div class="card row__4">
+
+           <img class="card__image" src="assets/images/card-2.png">
+           <div class="card__body">
+               <h3 class="card__body__title">Jasmine</h3>
+               <p class="card__body__description">
+                   Director of operation
+               </p>
+           </div> <!-- end of card body -->
+        </div> <!-- End of card -->
+        <div class="card row__4">
+
+          <img class="card__image" src="assets/images/card-3.png">
+          <div class="card__body">
+              <h3 class="card__body__title">Jane Doe</h3>
+              <p class="card__body__description">
+                  wine director & Owner
+              </p>
+          </div> <!-- end of card body -->
+       </div> <!-- End of card -->
+    </div> <!-- End of wrapper -->
+  </div>
+  <!--------------------------------gallery Section -------------------------------------------->
+  <div id="gallery" data-matching-link="#link-gallery" class="page-section">
+    <div class="wrapper">
+      <h2 class="page-section__title">Our gallery</h2>
+    </div>
+    <div class="row row__gutters row__equal-height-at-Medium">
+      <div class="gallery row__4">
+          <picture>
+          <source class="lazyload" data-srcset="assets/images/item-1-small.png 275w"  media="(min-width:1200px)">
+          <source class="lazyload" data-srcset="assets/images/item-1-medium.png 450w" media="(min-width:900px)" >
+          <img class="gallery__image lazyload"  data-srcset="assets/images/item-1-large.png 900w">
+          <picture>
+          <div class="gallery__content">
+              <p class="gallery__description ">Morbi imperdiet ac lorem a euismod. Vivamus sollicitudin
+                molestie lorem a commodo. Sed eu arcu id tortor tincidunt ultricies. In nulla nulla, lacinia nec erat ac,
+                 rutrum maximus odio. Mauris gravida et ligula
+                sit amet iaculis. Aliquam vel dui sit amet magna interdum venenatis. Suspendisse rhoncus
+              </p>
+              <a href ="#" class="gallery__link"> more ... </a>
+        </div>
+
+      </div>
+      <div class="gallery row__4">
+        <picture>
+        <source class="lazyload" data-srcset="assets/images/item-2-small.png 275w"  media="(min-width:1200px)">
+        <source class="lazyload" data-srcset="assets/images/item-2-medium.png 450w" media="(min-width:900px)" >
+        <img class="gallery__image lazyload"  data-srcset="assets/images/item-2-large.png 900w">
+        <picture>
+          <div class="gallery__content">
+              <p class="gallery__description ">    Pellentesque habitant morbi tristique senectus et netus et
+                     malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eros erat.
+                    Maecenas aliquam rhoncus ante, at convallis justo volutpat sit amet. Integer mattis
+              </p>
+              <a href ="#" class="gallery__link"> more ... </a>
+          </div>
+      </div>
+      <div class="gallery row__4">
+        <picture>
+        <source class="lazyload" data-srcset="assets/images/item-3-small.png 275w"  media="(min-width:1200px)">
+        <source class="lazyload" data-srcset="assets/images/item-3-medium.png 450w" media="(min-width:900px)" >
+        <img class="gallery__image lazyload"  data-srcset="assets/images/item-3-large.png 900w">
+        <picture>
+          <div class="gallery__content">
+              <p class="gallery__description "> Pellentesque habitant morbi tristique senectus et netus et
+                     malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eros erat.
+                    Maecenas aliquam rhoncus ante, at convallis justo volutpat sit amet. Integer mattis
+                    Pellentesque habitant morbi tristique senectus et netus et
+                           malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eros erat.
+                          Maecenas aliquam rhoncus ante, at con
+              </p>
+              <a href ="#" class="gallery__link"> more ... </a>
+          </div>
+      </div>
+   </div>  <!--End of row -->
+   <div class="row row__gutters row__equal-height-at-Medium">
+     <div class="gallery row__4">
+       <picture>
+       <source class="lazyload" data-srcset="assets/images/item-4-small.png 275w"  media="(min-width:1200px)">
+       <source class="lazyload" data-srcset="assets/images/item-4-medium.png 450w" media="(min-width:900px)" >
+       <img class="gallery__image lazyload"  data-srcset="assets/images/item-4-large.png 900w">
+       <picture>
+         <div class="gallery__content">
+             <p class="gallery__description ">Morbi imperdiet ac lorem a euismod. Vivamus sollicitudin
+               molestie lorem a commodo. Sed eu arcu id tortor tincidunt ultricies. In nulla nulla, lacinia nec erat ac,
+                rutrum maximus odio. Mauris gravida et ligula
+               sit amet iaculis. Aliquam vel dui sit amet magna interdum venenatis. Suspendisse rhoncus
+             </p>
+             <a href ="#" class="gallery__link"> more ... </a>
+        </div>
+
+     </div>
+     <div class="gallery row__4">
+       <picture>
+       <source class="lazyload" data-srcset="assets/images/item-5-small.png 275w"  media="(min-width:1200px)">
+       <source class="lazyload" data-srcset="assets/images/item-5-medium.png 450w" media="(min-width:900px)" >
+       <img class="gallery__image lazyload"  data-srcset="assets/images/item-5-large.png 900w">
+       <picture>
+         <div class="gallery__content">
+             <p class="gallery__description ">    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eros erat.
+                   Maecenas aliquam rhoncus ante, at convallis justo volutpat sit amet. Integer mattis
+             </p>
+             <a href ="#" class="gallery__link"> more ... </a>
+        </div>
+     </div>
+     <div class="gallery row__4">
+       <picture>
+       <source class="lazyload" data-srcset="assets/images/item-6-small.png 275w"  media="(min-width:1200px)">
+       <source class="lazyload" data-srcset="assets/images/item-6-medium.png 450w" media="(min-width:900px)" >
+       <img class="gallery__image lazyload"  data-srcset="assets/images/item-6-large.png 900w">
+       <picture>
+         <div class="gallery__content">
+             <p class="gallery__description "> Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eros erat.
+                   Maecenas aliquam rhoncus ante, at convallis justo volutpat sit amet. Integer mattis
+                   Pellentesque habitant morbi tristique senectus et netus et
+                          malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eros erat.
+                         Maecenas aliquam rhoncus ante, at con
+             </p>
+             <a href ="#" class="gallery__link"> more ... </a>
+        </div>
+     </div>
+  </div> <!--End of row -->
+  <div class="row row__gutters row__equal-height-at-Medium">
+    <div class="gallery row__4">
+      <picture>
+      <source class="lazyload" data-srcset="assets/images/item-7-small.png 275w"  media="(min-width:1200px)">
+      <source class="lazyload" data-srcset="assets/images/item-7-medium.png 450w" media="(min-width:900px)" >
+      <img class="gallery__image lazyload"  data-srcset="assets/images/item-7-large.png 900w">
+      <picture>
+        <div class="gallery__content">
+          <p class="gallery__description ">Morbi imperdiet ac lorem a euismod. Vivamus sollicitudin
+            molestie lorem a commodo. Sed eu arcu id tortor tincidunt ultricies. In nulla nulla, lacinia nec erat ac,
+             rutrum maximus odio. Mauris gravida et ligula
+            sit amet iaculis. Aliquam vel dui sit amet magna interdum venenatis. Suspendisse rhoncus
+          </p>
+          <a href ="#" class="gallery__link"> more ... </a>
+       </div>
+
+    </div>
+    <div class="gallery row__4">
+      <picture>
+      <source class="lazyload" data-srcset="assets/images/item-8-small.png 275w"  media="(min-width:1200px)">
+      <source class="lazyload" data-srcset="assets/images/item-8-medium.png 450w" media="(min-width:900px)" >
+      <img class="gallery__image lazyload"  data-srcset="assets/images/item-8-large.png 900w">
+      <picture>
+        <div class="gallery__content">
+            <p class="gallery__description ">    Pellentesque habitant morbi tristique senectus et netus et
+                   malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eros erat.
+                  Maecenas aliquam rhoncus ante, at convallis justo volutpat sit amet. Integer mattis
+            </p>
+            <a href ="#" class="gallery__link"> more ... </a>
+       </div>
+    </div>
+    <div class="gallery row__4">
+      <picture>
+      <source class="lazyload" data-srcset="assets/images/item-9-small.png 275w"  media="(min-width:1200px)">
+      <source class="lazyload" data-srcset="assets/images/item-9-medium.png 450w" media="(min-width:900px)" >
+      <img class="gallery__image lazyload"  data-srcset="assets/images/item-9-large.png 900w">
+      <picture>
+        <div class="gallery__content">
+          <p class="gallery__description "> Pellentesque habitant morbi tristique senectus et netus et
+                 malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eros erat.
+                Maecenas aliquam rhoncus ante, at convallis justo volutpat sit amet. Integer mattis
+                Pellentesque habitant morbi tristique senectus et netus et
+                       malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eros erat.
+                      Maecenas aliquam rhoncus ante, at con
+          </p>
+          <a href ="#" class="gallery__link"> more ... </a>
+       </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- ------------------------------Footer ------------------------------------------ -->
+  <footer class="footer">
+    <p>Copyright &copy; 2018 Resto. All rights reserved. <a style="color:red;" href="#">Get in Touch</a></p>
+  </footer>
+  <script src="assets/scripts/App-6946948cd0.js"></script>
+  </body>
+  </html>
